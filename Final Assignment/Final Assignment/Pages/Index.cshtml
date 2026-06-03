@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "My Favorite Song";
+}
+
+<div class="text-center">
+
+    <h2 id="text">My Favorite Song!</h2>
+
+    <p>Enjoy this music video!</p>
+
+    <br /><br />
+
+    <!-- Embedded YouTube video -->
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/kJQP7kiw5Fk"
+            title="YouTube video player"
+            allowfullscreen>
+    </iframe>
+
+    <br /><br />
+
+    <!-- Box that will be animated using JavaScript -->
+    <div id="box"></div>
+
+    <!-- Button to start the animation -->
+    <button onclick="moveBox()">Start Animation</button>
+</div>
+
+<script src="~/js/site.js"></script>

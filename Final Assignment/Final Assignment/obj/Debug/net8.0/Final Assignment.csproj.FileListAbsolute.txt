@@ -1,0 +1,67 @@
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\bin\Debug\net8.0\appsettings.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.staticwebassets.runtime.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.staticwebassets.endpoints.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.exe
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.deps.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.runtimeconfig.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.dll
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.pdb
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.AssemblyInfoInputs.cache
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.AssemblyInfo.cs
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.RazorAssemblyInfo.cache
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.RazorAssemblyInfo.cs
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\scopedcss\bundle\Final Assignment.styles.css
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\scopedcss\projectbundle\Final Assignment.bundle.scp.css
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.dll
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\refint\Final Assignment.dll
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.pdb
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.genruntimeconfig.cache
+C:\Users\Ayub\source\repos\Final Assignment\Final Assignment\obj\Debug\net8.0\ref\Final Assignment.dll
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\bin\Debug\net8.0\appsettings.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.staticwebassets.runtime.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.staticwebassets.endpoints.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.exe
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.deps.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.runtimeconfig.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.dll
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\bin\Debug\net8.0\Final Assignment.pdb
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.AssemblyInfoInputs.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.AssemblyInfo.cs
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.RazorAssemblyInfo.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.RazorAssemblyInfo.cs
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.sourcelink.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\scopedcss\bundle\Final Assignment.styles.css
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\scopedcss\projectbundle\Final Assignment.bundle.scp.css
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.dll
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\refint\Final Assignment.dll
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.pdb
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\Final Assignment.genruntimeconfig.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Final Assignment\Final Assignment\obj\Debug\net8.0\ref\Final Assignment.dll
