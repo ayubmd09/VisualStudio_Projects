@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\Package_Express\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8412B374-DF40-44CB-A250-FA8B4D10005A}|Package_Express\\Package_Express.csproj|c:\\users\\ayub\\documents\\github\\visualstudio_projects\\package_express\\package_express\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8412B374-DF40-44CB-A250-FA8B4D10005A}|Package_Express\\Package_Express.csproj|solutionrelative:package_express\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\Package_Express\\Package_Express\\Program.cs",
+              "RelativeDocumentMoniker": "Package_Express\\Program.cs",
+              "ToolTip": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\Package_Express\\Package_Express\\Program.cs",
+              "RelativeToolTip": "Package_Express\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T01:04:41.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Package_Express\Package_Express\bin\Debug\Package_Express.exe.config
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Package_Express\Package_Express\bin\Debug\Package_Express.exe
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Package_Express\Package_Express\bin\Debug\Package_Express.pdb
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Package_Express\Package_Express\obj\Debug\Package_Express.csproj.AssemblyReference.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Package_Express\Package_Express\obj\Debug\Package_Express.csproj.CoreCompileInputs.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Package_Express\Package_Express\obj\Debug\Package_Express.exe
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Package_Express\Package_Express\obj\Debug\Package_Express.pdb
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Package_Express\Package_Express\obj\Debug\Package_Express.exe.config
