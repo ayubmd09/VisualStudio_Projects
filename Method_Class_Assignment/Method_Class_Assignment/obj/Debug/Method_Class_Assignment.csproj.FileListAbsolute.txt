@@ -1,0 +1,8 @@
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Method_Class_Assignment\Method_Class_Assignment\bin\Debug\Method_Class_Assignment.exe.config
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Method_Class_Assignment\Method_Class_Assignment\bin\Debug\Method_Class_Assignment.exe
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Method_Class_Assignment\Method_Class_Assignment\bin\Debug\Method_Class_Assignment.pdb
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Method_Class_Assignment\Method_Class_Assignment\obj\Debug\Method_Class_Assignment.csproj.AssemblyReference.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Method_Class_Assignment\Method_Class_Assignment\obj\Debug\Method_Class_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Method_Class_Assignment\Method_Class_Assignment\obj\Debug\Method_Class_Assignment.exe
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Method_Class_Assignment\Method_Class_Assignment\obj\Debug\Method_Class_Assignment.pdb
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Method_Class_Assignment\Method_Class_Assignment\obj\Debug\Method_Class_Assignment.exe.config
