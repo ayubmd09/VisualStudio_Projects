@@ -1,0 +1,8 @@
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Operators_Assignment\Operators_Assignment\bin\Debug\Operators_Assignment.exe.config
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Operators_Assignment\Operators_Assignment\bin\Debug\Operators_Assignment.exe
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Operators_Assignment\Operators_Assignment\bin\Debug\Operators_Assignment.pdb
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Operators_Assignment\Operators_Assignment\obj\Debug\Operators_Assignment.csproj.AssemblyReference.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Operators_Assignment\Operators_Assignment\obj\Debug\Operators_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Operators_Assignment\Operators_Assignment\obj\Debug\Operators_Assignment.exe
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Operators_Assignment\Operators_Assignment\obj\Debug\Operators_Assignment.pdb
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\Operators_Assignment\Operators_Assignment\obj\Debug\Operators_Assignment.exe.config
