@@ -19,10 +19,6 @@
       "RelativeMoniker": "D:0:0:{207B0BF4-1F8F-4151-ACFD-BFF51CC04121}|CarInsurance\\CarInsurance.csproj|solutionrelative:carinsurance\\models\\insuree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\Migrations\\20260818024952_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarInsurance\\Migrations\\20260818024952_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\Migrations\\20260818024518_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarInsurance\\Migrations\\20260818024518_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +37,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{207B0BF4-1F8F-4151-ACFD-BFF51CC04121}|CarInsurance\\CarInsurance.csproj|c:\\users\\ayub\\documents\\github\\visualstudio_projects\\carinsurance\\carinsurance\\carinsurance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{207B0BF4-1F8F-4151-ACFD-BFF51CC04121}|CarInsurance\\CarInsurance.csproj|solutionrelative:carinsurance\\carinsurance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207B0BF4-1F8F-4151-ACFD-BFF51CC04121}|CarInsurance\\CarInsurance.csproj|c:\\users\\ayub\\documents\\github\\visualstudio_projects\\carinsurance\\carinsurance\\migrations\\20260818024952_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207B0BF4-1F8F-4151-ACFD-BFF51CC04121}|CarInsurance\\CarInsurance.csproj|solutionrelative:carinsurance\\migrations\\20260818024952_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "CarInsurance\\Views\\Insurees\\Admin.cshtml",
               "ToolTip": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\Views\\Insurees\\Admin.cshtml",
               "RelativeToolTip": "CarInsurance\\Views\\Insurees\\Admin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwDEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-18T03:34:12.655Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "CarInsurance\\Views\\Insurees\\Create.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADwAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-18T03:09:47.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T03:09:47.887Z"
             },
             {
               "$type": "Document",
@@ -88,12 +87,11 @@
               "RelativeToolTip": "CarInsurance\\Controllers\\InsureesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T02:55:55.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T02:55:55.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "20260818024952_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\Migrations\\20260818024952_InitialCreate.cs",
               "RelativeDocumentMoniker": "CarInsurance\\Migrations\\20260818024952_InitialCreate.cs",
@@ -101,12 +99,11 @@
               "RelativeToolTip": "CarInsurance\\Migrations\\20260818024952_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T02:49:52.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T02:49:52.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "20260818024518_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\Migrations\\20260818024518_InitialCreate.cs",
               "RelativeDocumentMoniker": "CarInsurance\\Migrations\\20260818024518_InitialCreate.cs",
@@ -114,12 +111,11 @@
               "RelativeToolTip": "CarInsurance\\Migrations\\20260818024518_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T02:45:18.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T02:45:18.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\Program.cs",
               "RelativeDocumentMoniker": "CarInsurance\\Program.cs",
@@ -127,12 +123,11 @@
               "RelativeToolTip": "CarInsurance\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T02:35:54.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T02:35:54.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\appsettings.json",
               "RelativeDocumentMoniker": "CarInsurance\\appsettings.json",
@@ -140,12 +135,11 @@
               "RelativeToolTip": "CarInsurance\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-18T02:35:09.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T02:35:09.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CarInsuranceContext.cs",
               "DocumentMoniker": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\Data\\CarInsuranceContext.cs",
               "RelativeDocumentMoniker": "CarInsurance\\Data\\CarInsuranceContext.cs",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "CarInsurance\\Data\\CarInsuranceContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T02:34:49.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T02:34:49.82Z"
             },
             {
               "$type": "Document",
@@ -166,21 +159,19 @@
               "RelativeToolTip": "CarInsurance\\Models\\Insuree.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T02:30:05.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T02:30:05.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CarInsurance",
+              "DocumentIndex": 8,
+              "Title": "CarInsurance.csproj",
               "DocumentMoniker": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\CarInsurance.csproj",
               "RelativeDocumentMoniker": "CarInsurance\\CarInsurance.csproj",
               "ToolTip": "C:\\Users\\Ayub\\Documents\\GitHub\\VisualStudio_Projects\\CarInsurance\\CarInsurance\\CarInsurance.csproj",
               "RelativeToolTip": "CarInsurance\\CarInsurance.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-18T02:24:08.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T02:24:08.87Z"
             }
           ]
         }
