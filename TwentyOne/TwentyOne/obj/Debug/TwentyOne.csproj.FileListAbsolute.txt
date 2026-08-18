@@ -1,0 +1,7 @@
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\Ayub\Documents\GitHub\VisualStudio_Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb
