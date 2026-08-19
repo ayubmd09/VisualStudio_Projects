@@ -3,28 +3,28 @@ using Microsoft.EntityFrameworkCore;
 using CarInsurance.Models;
 using CarInsurance.Data;
 
-public class InsureesController : Controller
+public class InsureeController : Controller
 {
     private readonly CarInsuranceContext _context;
 
-    public InsureesController(CarInsuranceContext context)
+    public InsureeController(CarInsuranceContext context)
     {
         _context = context;
     }
 
-    // GET: INSUREES
+    // GET: INSUREE
     public async Task<IActionResult> Index()
     {
         return View(await _context.Insurees.ToListAsync());
     }
 
-    // GET: INSUREES/Admin
+    // GET: INSUREE/Admin
     public async Task<IActionResult> Admin()
     {
         return View(await _context.Insurees.ToListAsync());
     }
 
-    // GET: INSUREES/Details/5
+    // GET: INSUREE/Details/5
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -43,92 +43,23 @@ public class InsureesController : Controller
         return View(insuree);
     }
 
-    // GET: INSUREES/Create
+    // GET: INSUREE/Create
     public IActionResult Create()
     {
         return View();
     }
 
-    // POST: INSUREES/Create
+    // POST: INSUREE/Create
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(
-        [Bind("Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType")] Insuree insuree)
+        [Bind("Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType")]
+        Insuree insuree)
     {
         if (ModelState.IsValid)
         {
-            // Start with the base monthly quote
-            decimal quote = 50m;
-
-            // Calculate the user's age
-            var today = DateTime.Today;
-            int age = today.Year - insuree.DateOfBirth.Year;
-
-            if (insuree.DateOfBirth.Date > today.AddYears(-age))
-            {
-                age--;
-            }
-
-            // Age adjustment
-            if (age <= 18)
-            {
-                quote += 100m;
-            }
-            else if (age <= 25)
-            {
-                quote += 50m;
-            }
-            else
-            {
-                quote += 25m;
-            }
-
-            // Car year adjustment
-            if (insuree.CarYear < 2000)
-            {
-                quote += 25m;
-            }
-
-            if (insuree.CarYear > 2015)
-            {
-                quote += 25m;
-            }
-
-            // Porsche adjustment
-            if (insuree.CarMake.Equals(
-                "Porsche",
-                StringComparison.OrdinalIgnoreCase))
-            {
-                quote += 25m;
-
-                // Additional $25 for Porsche 911 Carrera
-                if (insuree.CarModel.Equals(
-                    "911 Carrera",
-                    StringComparison.OrdinalIgnoreCase))
-                {
-                    quote += 25m;
-                }
-            }
-
-            // $10 for each speeding ticket
-            quote += insuree.SpeedingTickets * 10m;
-
-            // DUI adds 25%
-            if (insuree.DUI)
-            {
-                quote *= 1.25m;
-            }
-
-            // Full coverage adds 50%
-            if (insuree.CoverageType.Equals(
-                "Full",
-                StringComparison.OrdinalIgnoreCase))
-            {
-                quote *= 1.50m;
-            }
-
-            // Store the calculated quote
-            insuree.Quote = quote;
+            // Calculate and store the quote on the backend
+            insuree.Quote = CalculateQuote(insuree);
 
             _context.Add(insuree);
             await _context.SaveChangesAsync();
@@ -139,7 +70,7 @@ public class InsureesController : Controller
         return View(insuree);
     }
 
-    // GET: INSUREES/Edit/5
+    // GET: INSUREE/Edit/5
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -157,12 +88,13 @@ public class InsureesController : Controller
         return View(insuree);
     }
 
-    // POST: INSUREES/Edit/5
+    // POST: INSUREE/Edit/5
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(
         int id,
-        [Bind("Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
+        [Bind("Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType")]
+        Insuree insuree)
     {
         if (id != insuree.Id)
         {
@@ -171,6 +103,9 @@ public class InsureesController : Controller
 
         if (ModelState.IsValid)
         {
+            // Recalculate the quote based on the updated information
+            insuree.Quote = CalculateQuote(insuree);
+
             try
             {
                 _context.Update(insuree);
@@ -194,7 +129,7 @@ public class InsureesController : Controller
         return View(insuree);
     }
 
-    // GET: INSUREES/Delete/5
+    // GET: INSUREE/Delete/5
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -213,7 +148,7 @@ public class InsureesController : Controller
         return View(insuree);
     }
 
-    // POST: INSUREES/Delete/5
+    // POST: INSUREE/Delete/5
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int? id)
@@ -228,6 +163,87 @@ public class InsureesController : Controller
         await _context.SaveChangesAsync();
 
         return RedirectToAction(nameof(Index));
+    }
+
+    // Calculate the monthly insurance quote
+    private decimal CalculateQuote(Insuree insuree)
+    {
+        // Start with base monthly quote of $50
+        decimal quote = 50m;
+
+        // Calculate the user's age
+        var today = DateTime.Today;
+        int age = today.Year - insuree.DateOfBirth.Year;
+
+        if (insuree.DateOfBirth.Date > today.AddYears(-age))
+        {
+            age--;
+        }
+
+        // Age adjustment
+        // 18 and under: +$100
+        // 19 to 25: +$50
+        // 26 and older: +$25
+        if (age <= 18)
+        {
+            quote += 100m;
+        }
+        else if (age <= 25)
+        {
+            quote += 50m;
+        }
+        else
+        {
+            quote += 25m;
+        }
+
+        // Car year adjustment
+        // Before 2000: +$25
+        if (insuree.CarYear < 2000)
+        {
+            quote += 25m;
+        }
+
+        // After 2015: +$25
+        if (insuree.CarYear > 2015)
+        {
+            quote += 25m;
+        }
+
+        // Porsche adjustment
+        if (insuree.CarMake.Equals(
+            "Porsche",
+            StringComparison.OrdinalIgnoreCase))
+        {
+            quote += 25m;
+
+            // Additional $25 for Porsche 911 Carrera
+            if (insuree.CarModel.Equals(
+                "911 Carrera",
+                StringComparison.OrdinalIgnoreCase))
+            {
+                quote += 25m;
+            }
+        }
+
+        // $10 for every speeding ticket
+        quote += insuree.SpeedingTickets * 10m;
+
+        // DUI adds 25% to the running total
+        if (insuree.DUI)
+        {
+            quote *= 1.25m;
+        }
+
+        // Full coverage adds 50% to the running total
+        if (insuree.CoverageType.Equals(
+            "Full",
+            StringComparison.OrdinalIgnoreCase))
+        {
+            quote *= 1.50m;
+        }
+
+        return quote;
     }
 
     private bool InsureeExists(int? id)

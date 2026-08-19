@@ -69,7 +69,11 @@
 
             <div class="form-group">
                 <label asp-for="CoverageType" class="control-label"></label>
-                <input asp-for="CoverageType" class="form-control" />
+                <select asp-for="CoverageType" class="form-control">
+                    <option value="">-- Select Coverage --</option>
+                    <option value="Basic">Basic</option>
+                    <option value="Full">Full</option>
+                </select>
                 <span asp-validation-for="CoverageType" class="text-danger"></span>
             </div>
 
